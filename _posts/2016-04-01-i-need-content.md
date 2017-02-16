@@ -1,6 +1,6 @@
 ---
 layout: post
-title: In Need Content!
+title: In the Beginning!
 tags:
 - jekyll
 - blogging
