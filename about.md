@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Crema
-subtitle: Thin nutty brown foam on a well crafted espresso shot
+subtitle: Software Consulants that take pride in what they do because they love it.
 ---
 
 Crema development builds client relationships and custom software with these prinicples:
