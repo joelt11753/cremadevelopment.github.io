@@ -32,6 +32,10 @@ USER root
 #Remove X-Pack
 RUN /usr/share/elasticsearch/bin/elasticsearch-plugin remove x-pack
 
+#Other stuff I didn't want to type repeatedly while in dev.
+ENV http.host 0.0.0.0
+ENV transport.host 127.0.0.1
+
 USER elasticsearch
 ```
 
@@ -41,6 +45,6 @@ That being said if you build that with
 
 Then run it with
 
-```docker run -p 9200:9200 -e "http.host=0.0.0.0" -e "transport.host=127.0.0.1" carbar/elasticsearch```
+```docker run -p 9200:9200 carbar/elasticsearch```
 
 And *badaboom* you now have a localhost:9200 url that will 
