@@ -19,6 +19,9 @@ So there I was, a guy who wanted a place to store thoughts, tricks, and the pass
 Therefore I have decided to post this, the page which you are looking at.  Though there is a high likelihood that you have lost interest and moved on to play games on your phone, or searched again and found what you needed on [StackOverflow](stackoverflow.com). I will forge on in an attempt to break the vicious recursive cycle of no site, no content, no site, no content. I will stand up a page, with little more than my blabbering on about not having content. The theory is that having a platform in place to collect these thoughts gives no excuse to put off filling in my content.
 
 _Thanks for listening._
+<<<<<<< HEAD
+=======
 ## <info@cremadevelopment.com>
+>>>>>>> master
 
 
