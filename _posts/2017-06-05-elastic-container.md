@@ -47,4 +47,4 @@ Then run it with
 
 ```docker run -p 9200:9200 carbar/elasticsearch```
 
-*Badaboom* - you now have a localhost:9200 url that will 
+*Badaboom* - you now have a localhost:9200 url for pushing data to.
