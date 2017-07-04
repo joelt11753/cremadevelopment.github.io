@@ -1,9 +1,4 @@
-
-$CremaSiteId = docker ps -q --filter name=cremasite
-
-if(!$CremaSiteId) {
-    docker stop cremasite
-}
+. .\scripts\docker-down.ps1
 
 docker run --rm --volume=${PWD}:/srv/jekyll -it jekyll/jekyll jekyll build
 
