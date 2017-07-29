@@ -1,0 +1,28 @@
+---
+layout: base
+---
+
+<!-- ======== @Region: #highlighted ======== -->
+<div id="highlighted" class="border-bottom-0 bg-black">
+  <!-- Image Banner: Use the the data-bg-img functionality to create a simple image banner Use spacer classes to make the banner larger with padding, allows for easy responsive changes too see: elements-ctas.htm To make the banner full height/screen add the attributes: data-toggle="full-height" data-offset="#header" -->
+  <div class="overlay overlay-op-7 text-center px-3 pb-5 pt-7 py-lg-8 flex-valign" data-bg-img="assets/img/backgrounds/index-corporate-banner.jpg" data-css='{"background-position": "center bottom","background-attachment": "fixed"}' data-animate="fadeIn" data-toggle="full-height" data-breakpoint="992">
+    <div data-scroll="scrollax" data-scrollax-y-ratio="1000" class="py-lg-6 pt-lg-8">
+      <h2 class="display-3 text-white text-uppercase font-weight-bold" data-animate="fadeInDown" data-animate-delay="0.6">
+        Crema Development
+      </span>
+    </h2>
+    <h3 class="text-grey font-weight-normal" data-animate="fadeInUp" data-animate-delay="0.8">
+      <span data-typed='["Process Improvement", "Maintainable Code", "Development Staff Training", "Solutions Through Software"]' data-typed-settings='{"delay":2000, "speed":120,"breakLines":false, "deleteDelay":1400, "doneClass":{"#get-btn":"animated fadeIn"}}'></span> 
+    </h3>
+  </div>
+</div>
+
+{% include services.html %}
+
+{% include training.html %}
+
+{% include promos.html %}
+<!-- 
+{% include team.html %} -->
+
+{% include clients.html %}
