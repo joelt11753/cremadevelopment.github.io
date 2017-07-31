@@ -15,8 +15,6 @@ common-js:
   - "/js/main.js"
 ---
 
-
-
 <!DOCTYPE html>
 <html lang="en">
   {% include head.html %}
@@ -27,16 +25,16 @@ common-js:
 
     <!-- @plugin: page loading indicator, delete to remove loader -->
     <div class="page-loader" data-toggle="page-loader"></div>
-    
+
     <a id="#top" href="#content" class="sr-only">Skip to content</a> 
-    
+
     {% include nav.html %}
 
     {{ content }}
 
     {% include footer.html %}
-  
+
     {% include footer-scripts.html %}
-  
+
   </body>
 </html>
