@@ -1,5 +1,7 @@
-$CremaSiteId = docker ps -q --filter name=cremasite
+# $CremaSiteId = docker ps -q --filter name=cremasite
 
-if(!$CremaSiteId) {
-    docker stop cremasite
-}
+# if(!$CremaSiteId) {
+#     docker stop cremasite
+# }
+
+docker-compose down
